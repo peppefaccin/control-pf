@@ -1,5 +1,5 @@
 // Guarda o app para abrir sem internet. Sempre tenta a versão nova primeiro.
-const CACHE = 'controlpf-v1';
+const CACHE = 'controlpf-v2';
 const ARQUIVOS = ['./', 'index.html', 'estilo.css', 'app.js', 'logo-branco.png', 'icone-192.png', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
